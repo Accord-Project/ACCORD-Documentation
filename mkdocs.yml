@@ -4,6 +4,8 @@ markdown_extensions:
   - attr_list
 extra:
   logo: accord.jpg
+  article_nav_top: false
+  article_nav_bottom: false
 nav:
   - Home: index.md
   - ACCORD Building Compliance Ontology: aec3po.md
