@@ -1,10 +1,11 @@
-## ACCORD Project Documentation
+# ACCORD Project Documentation
 ![ACCORD](./accord.jpg)
+## Introduction
 
 
 
 
-# Funding
+## Funding
 ![EU](./eu.jpg){ height="50" }
 
 This project has received funding from the European Union’s Horizon Europe research and innovationprogramme under grant agreement no. 101056973.
