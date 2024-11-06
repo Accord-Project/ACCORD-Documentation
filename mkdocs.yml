@@ -1,0 +1,12 @@
+site_name: ACCORD Project Documentation
+theme: windmill
+markdown_extensions:
+  - attr_list
+extra:
+  logo: accord.jpg
+nav:
+  - Home: index.md
+  - ACCORD Building Compliance Ontology: aec3po.md
+  - Rule Formalisation Process: process.md
+  - Natural Langauge Processing of Building Codes: nlp.md
+  - ACCORD Rule Formalisation Tool: rft.md
