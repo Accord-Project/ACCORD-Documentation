@@ -12,3 +12,4 @@ nav:
   - Rule Formalisation Process: process.md
   - Natural Langauge Processing of Building Codes: nlp.md
   - ACCORD Rule Formalisation Tool: rft.md
+  - Semantic Storage: graphdb.md
