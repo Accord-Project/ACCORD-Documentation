@@ -1,6 +1,6 @@
 # Semantic Storage
 
-Ontotext GraphDB(TM) is an RDF database, it is chosen as a data storage created in compliance with the Semantic Web technologies stack, to adopt its best practices to serve regulation compliance checks. 
+[Ontotext GraphDB(TM)](https://graphdb.ontotext.com) is an RDF database, it is chosen as a data storage created in compliance with the Semantic Web technologies stack, to adopt its best practices to serve regulation compliance checks. 
 
 Ontotext GraphDB(TM)’s usage in ACCORD semantic framework is twofold:  
 
@@ -22,7 +22,15 @@ Correspondent endpoints and their URLs are given in the table below.
 
 ## GraphDB as the storage for regulation graphs 
 
-The regulation graphs obtained within the Rule Formalisation Tool in the form of JSON-LD files are uploaded to Ontotext GraphDB(TM) via REST API provided by GraphDB Workbench. The full description of Ontotext GraphDB(TM) REST API abilities is given at the link [https://graphdb.accordproject.eu/graphdb/webapi](https://graphdb.accordproject.eu/graphdb/webapi). 
+The regulation graphs obtained within the Rule Formalisation Tool in the form of JSON-LD files are uploaded to Ontotext GraphDB(TM) via REST API provided by GraphDB Workbench. 
+
+The steps of the transformation are given at the picture
+
+![](./ACCORD-Regulations-to-GraphDB.png)
+
+The list of API calls to GraphDB used in ACCORD project got Building Codes and Rules is given here [graphdb-webapi.md](https://github.com/Accord-Project/API-Development/blob/main/BuildingCodesAndRules/graphdb-webapi.md).
+
+The full description of Ontotext GraphDB(TM) REST API abilities is given at the link [https://graphdb.accordproject.eu/graphdb/webapi](https://graphdb.accordproject.eu/graphdb/webapi). 
 
 A dedicated repository `aec3po` keeps the latest versions of regulation graphs created for a particular building code.  
 
@@ -56,17 +64,22 @@ GraphQL endpoint using Ontotext Platform Semantic Objects(TM):
 
 Ontotext GraphDB(TM) is used as the storage for [German use case 1 data](https://accordproject.eu/wp-content/uploads/2023/09/ACCORD_D1.2_ACCORD-Framework-and-User-Requirements-Specification.pdf), namely, land use development plans of the land under Tegel airport and building information models of several buildings of Tegel airport. The description of the use case is provided in the Section 5.1 of the [ACCORD Deliverable D1.2](https://accordproject.eu/wp-content/uploads/2023/09/ACCORD_D1.2_ACCORD-Framework-and-User-Requirements-Specification.pdf). 
 
-Land use development plans are given in the form of [XPlanXML](https://xleitstelle.de/xplanung/ueber_xplanung) files, and to be uploaded and then queried in Ontotext GraphDB(TM) they undergone conversion from XPlanXML into RDF/Turtle done with script written in [XSPARQL](https://www.w3.org/submissions/xsparql-language-specification/). 
+Land use development plans are given in the form of [XPlanXML](https://xleitstelle.de/xplanung/ueber_xplanung) files, and to be uploaded and then queried in Ontotext GraphDB(TM) they undergone conversion from XPlanXML into RDF/Turtle done with custom script written in [XSPARQL](https://www.w3.org/submissions/xsparql-language-specification/). 
 
-Building information models (BIMs) are given in the form of IFCx4 files, and to be uploaded and then queried in Ontotext GraphDB(TM) they are converted from IFCx4 to [CityGML 3.0](https://www.ogc.org/publications/standard/citygml/) with the help of a custom FME workflow, and then converted from CityGML 3.0 into RDF/Turtle with another script written in XSPARQL. 
+Building information models (BIMs) are given in the form of IFCx4 files, and to be uploaded and then queried in Ontotext GraphDB(TM) they are converted from IFCx4 to [CityGML 3.0](https://www.ogc.org/publications/standard/citygml/) with the help of a custom FME workflow, and then converted from CityGML 3.0 into RDF/Turtle with another custom script written in XSPARQL. 
 
 Important note: the geometries in XPlanXML are given originally in GML format, and to be used within Ontotext GraphDB(TM) they are converted into WKT using custom Python code. 
 
-The data of land usage plans are stored in GraphDB repository `tegel` in three named graphs, correspondent to the names of building plans: 
+The data of land usage plans are stored in GraphDB repositories `12-50a`, `12-50ba` and `12-62a`, correspondent to the names of building plans.
 
-The default graph stores common SKOS concept schemas for enumerations and code values reused within XPlanXML. 
+Each repository contains:
 
-The data of BIMs are in the named graph within GraphDB repository `ifctegel`: 
+- the unnamed default graph - stores common SKOS concept schemas for enumerations and code values reused within XPlanXML;
+- `landuse` - the land use data from XPlanXML for the particular building plan;
+- `ifc` - the partial conversion of building information models (BIMs) of Tegel airport from IFC4 to CityGML3.0 with FME conversion and then XSPARQL conversion to RDF;
+- `ifclbd` - the complete conversion of BIMs from IFC4 to CityGML3.0 with [IFC-to-LBD conversion](https://github.com/jyrkioraskari/IFCtoLBD);
+- `toporels` - the precalculated topological relations between land parcels and BIMs
+- `regurels` - the interconnections among fragments of texts detected in regulations texts, that cannot be described in XPlan.
 
-The documentation and the details of German use case are given in https://github.com/Accord-Project/Tegel/tree/main . 
+The documentation and the details of German use case are given in https://github.com/Accord-Project/Tegel/tree/main (private). 
 
