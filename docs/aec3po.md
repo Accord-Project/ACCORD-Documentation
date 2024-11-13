@@ -14,8 +14,10 @@ This is a one-minute video that explains the overall aim of the AEC3PO.
 
 
 [AEC3PO Explaination and Examples](https://mailbcuac.sharepoint.com/:p:/r/sites/ACCORD_GRP/_layouts/15/Doc.aspx?sourcedoc=%7B3F4A54B2-4909-49AC-BF81-87911846DFA7%7D&file=BCU%20T2.2%20Meeting%2025%20Jul%202023.pptx&wdLOR=c0669CE73-F968-4E53-9776-F12E611ACC99&action=edit&mobileredirect=true)
+
 This presentation provides an illustration of the basic concepts of AECP3PO and how it operates through a number of examples.
 
 
 [AEC3PO Code and Deployment](https://github.com/Accord-Project/aec3po)
+
 The code and pipeline for building the AEC3PO ontology is provided in this repository.
