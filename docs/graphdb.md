@@ -70,7 +70,7 @@ Building information models (BIMs) are given in the form of IFCx4 files, and to 
 
 Important note: the geometries in XPlanXML are given originally in GML format, and to be used within Ontotext GraphDB(TM) they are converted into WKT using custom Python code. 
 
-The data of land usage plans are stored in GraphDB repositories `12-50a`, `12-50ba` and `12-62a`, correspondent to the names of building plans.
+The data of land usage plans are stored in GraphDB repositories `12-50a`, `12-50ba` and `12-62a`, corresponding to the names of building plans.
 
 Each repository contains:
 
