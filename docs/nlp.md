@@ -6,7 +6,7 @@
 
 Within the ACCORD project, our primary focus has been on  exploring how the NLP techniques can be used for automatic rule formalisation and regulatory text interpretation. A brief review of how NLP techniques have been used to build regulatory data for rule generation as well as our SNOWTEC tool pipeline for extracting enetities from AEC regulatory text is summarised in the following video:
 
-[Data and SNOWTEC Explained](https://livelancsac-my.sharepoint.com/:v:/g/personal/hettiar1_lancaster_ac_uk/ES2pitopM19Ikb33NHtTC40BzcoX3r0HC8I2shFHmOFKDw)
+[Data and SNOWTEC Explained](https://tinyurl.com/2s3c24jd)
 
 ### SNOWTEC
 
