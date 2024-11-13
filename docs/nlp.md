@@ -12,6 +12,8 @@ Within the ACCORD project, our primary focus has been on  exploring how the NLP 
 
 <p style='text-align: justify;'> SNOWTEC leverages transformer-based architectures to extract and standardize information from regulatory sentences, converting them into knowledge graphs. This system uses the ACCORD-DATA to automatically process regulatory text written in natural language. The development specifically targets self-contained sentences — those that convey rules with complete details and no unresolved linguistic references, external sources, or ambiguous concepts. These types of sentences are crucial for Automated Compliance Checking (ACC) since they directly express rules that can be easily extracted.
 SNOWTECH Information extraction pipeline converts a regulatory sentence into a knowledge graph showing the entities and their regulatory relations. </p>
+
+![](./Snowtec.png)
  
 > The code for building SNOWTECH pipeline is available through the following links:
 
