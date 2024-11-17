@@ -1,6 +1,7 @@
 # Rule Formalisation Process and BCRL Format
 
 This section of the documentation will document;
+
 a. the ACCORD rule formalisation process,
 b. the technologies used as part of this process, 
 c. how the formalised regulation documents are serialised and

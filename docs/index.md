@@ -5,6 +5,7 @@
 This documentation site presents the technical documentation of all the artefacts developed in the ACCORD project.
 
 It includes the following aspects developed in *WP2 (Semantisation of Regulations and Open Format for Machine-Readable Rules)*:
+
 1. The Building Compliance Rule Language (BCRL).
 2. The Rule Formalisation Process and the BCRL Format.
 3. Artificial Intelligence models and tools.
