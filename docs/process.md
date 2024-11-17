@@ -1,5 +1,12 @@
 # Rule Formalisation Process and BCRL Format
 
+This section of the documentation will document;
+a. the ACCORD rule formalisation process,
+b. the technologies used as part of this process, 
+c. how the formalised regulation documents are serialised and
+d. how the Building Smart Data Dictionary (bsDD) is utilised as part of the process.
+
+To supplement this documentation [training on the ACCORD rule formalisation process](https://www.youtube.com/watch?v=oMwEXCzc3lc) is also provided in video form.
 ## ACCORD Rule Formalisation Process
 
 ![](./process.png)
