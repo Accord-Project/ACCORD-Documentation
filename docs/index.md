@@ -11,8 +11,8 @@ It includes the following aspects developed in *WP2 (Semantisation of Regulation
 3. Artificial Intelligence models and tools.
 4. The Rule Formalisation Tool (RFT).
 5. Semantic storage:
-	a. GraphDFB Rules Repository.
-	b. Semantic BSDD.
+	1. GraphDFB Rules Repository.
+	2. Semantic BSDD.
 
 
 ## Funding
