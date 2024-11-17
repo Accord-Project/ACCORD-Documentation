@@ -5,11 +5,11 @@
 This documentation site presents the technical documentation of all the artefacts developed in the ACCORD project.
 
 It includes the following aspects developed in *WP2 (Semantisation of Regulations and Open Format for Machine-Readable Rules)*:
-1. [The Building Compliance Rule Language (BCRL)](aec3po.md).
-2. [The Rule Formalisation Process and the BCRL Format](process.md).
-3. [Artificial Intelligence models and tools.](nlp.md)
-4. [The Rule Formalisation Tool (RFT).](rft.md)
-5. [Semantic storage:][graphdb.md]
+- [The Building Compliance Rule Language (BCRL)](aec3po.md).
+- [The Rule Formalisation Process and the BCRL Format](process.md).
+- [Artificial Intelligence models and tools.](nlp.md)
+- [The Rule Formalisation Tool (RFT).](rft.md)
+- [Semantic storage:][graphdb.md]
 	a. GraphDFB Rules Repository.
 	b. Semantic BSDD.
 
