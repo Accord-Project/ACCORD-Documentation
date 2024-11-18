@@ -9,7 +9,7 @@ extra:
 nav:
   - Home: index.md
   - ACCORD Building Compliance Ontology: aec3po.md
-  - Rule Formalisation Process: process.md
+  - Rule Formalisation Process and BCRL Format: process.md
   - Natural Langauge Processing of Building Codes: nlp.md
   - ACCORD Rule Formalisation Tool: rft.md
   - Semantic Storage: graphdb.md
