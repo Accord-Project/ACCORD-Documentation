@@ -2,7 +2,7 @@
 
 [Ontotext GraphDB(TM)](https://graphdb.ontotext.com) is an RDF database, it is chosen as a data storage created in compliance with the Semantic Web technologies stack, to adopt its best practices to serve regulation compliance checks. 
 
-Ontotext GraphDB(TM)’s usage in ACCORD semantic framework is twofold:  
+Ontotext GraphDB(TM) is used in ACCORD semantic framework in the following ways:  
 
 - As a storage for regulation graphs generated from the building code text sources with the help of the Rule Formalization Tool. 
 
