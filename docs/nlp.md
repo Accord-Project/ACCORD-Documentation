@@ -23,3 +23,6 @@ SNOWTECH Information extraction pipeline converts a regulatory sentence into a k
 4.	[SNOWTEC Pre-trained Models](https://huggingface.co/ACCORD-NLP)
 
 
+### RASE Automation Tool
+
+![](./text-to-yaml.png)
