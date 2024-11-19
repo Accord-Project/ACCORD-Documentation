@@ -4,9 +4,11 @@
 
 Ontotext GraphDB(TM)’s usage in ACCORD semantic framework is twofold:  
 
-- As a storage for regulation graphs generated from the building code text sources with the help of the Rule Formalization Tool 
+- As a storage for regulation graphs generated from the building code text sources with the help of the Rule Formalization Tool. 
 
 - As a storage of an enhanced version of buildingSmart Data Dictionary, Semantic bSDD, fully compliant with the Semantic Web technologies stack. 
+
+- As a storage for German use case 1 data.
 
 In this section technical details of Ontotext GraphDB(TM) usage are described. 
 
