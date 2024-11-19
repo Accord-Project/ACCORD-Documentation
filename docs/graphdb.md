@@ -2,11 +2,13 @@
 
 [Ontotext GraphDB(TM)](https://graphdb.ontotext.com) is an RDF database, it is chosen as a data storage created in compliance with the Semantic Web technologies stack, to adopt its best practices to serve regulation compliance checks. 
 
-Ontotext GraphDB(TM)’s usage in ACCORD semantic framework is twofold:  
+Ontotext GraphDB(TM) is used in ACCORD semantic framework in the following ways:  
 
-- As a storage for regulation graphs generated from the building code text sources with the help of the Rule Formalization Tool 
+- As a storage for regulation graphs generated from the building code text sources with the help of the Rule Formalization Tool. 
 
 - As a storage of an enhanced version of buildingSmart Data Dictionary, Semantic bSDD, fully compliant with the Semantic Web technologies stack. 
+
+- As a storage for German use case 1 data.
 
 In this section technical details of Ontotext GraphDB(TM) usage are described. 
 
@@ -70,7 +72,7 @@ Building information models (BIMs) are given in the form of IFCx4 files, and to 
 
 Important note: the geometries in XPlanXML are given originally in GML format, and to be used within Ontotext GraphDB(TM) they are converted into WKT using custom Python code. 
 
-The data of land usage plans are stored in GraphDB repositories `12-50a`, `12-50ba` and `12-62a`, correspondent to the names of building plans.
+The data of land usage plans are stored in GraphDB repositories `12-50a`, `12-50ba` and `12-62a`, corresponding to the names of building plans.
 
 Each repository contains:
 
