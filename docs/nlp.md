@@ -26,3 +26,6 @@ SNOWTECH Information extraction pipeline converts a regulatory sentence into a k
 ### RASE Automation Tool
 
 ![](./text-to-yaml.png)
+
+
+![](./Rase Automation Pipline.png)
