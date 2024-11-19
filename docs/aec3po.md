@@ -1,6 +1,9 @@
 # AEC3PO
 
-<p style='text-align: justify;'> The Architecture, Engineering and Construction Compliance Checking and Permitting Ontology, or AEC3PO, is a semantic knowledge model developed to streamline compliance processes in the construction industry. It represents regulations and building codes in a machine-readable format. AEC3PO  provids a unified framework that enhances automation and consistency across different projects and regulatory environments. AEC 3PO integrates various compliance aspects from document modelling to verification reporting.
+<p style='text-align: justify;'> The Architecture, Engineering and Construction Compliance Checking and Permitting Ontology, or AEC3PO, is a semantic knowledge model developed to streamline compliance processes in the construction industry. 
+It represents regulations and building codes in a machine-readable format. 
+AEC3PO  provides a unified framework that enhances automation and consistency across different projects and regulatory environments. 
+AEC 3PO integrates various compliance aspects from document modelling to verification reporting.
 The figure provides a visual representation of the role of AEC3PO and its relationships with the
 knowledge application components of the ACCORD architecture. As AEC3PO serves as a semantic
 foundation for rule formalisation language in Task 2.3, it plays a vital role in API development (WP4),
