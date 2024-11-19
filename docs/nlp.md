@@ -28,4 +28,4 @@ SNOWTECH Information extraction pipeline converts a regulatory sentence into a k
 ![](./text-to-yaml.png)
 
 
-![](./Rase Automation Pipline.png)
+![](./RasePipline.png)
