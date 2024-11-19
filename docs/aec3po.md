@@ -6,11 +6,7 @@ AEC3PO  provides a unified framework that enhances automation and consistency ac
 AEC 3PO integrates various compliance aspects from document modelling to verification reporting.
 The figure provides a visual representation of the role of AEC3PO and its relationships with the
 knowledge application components of the ACCORD architecture. As AEC3PO serves as a semantic
-foundation for rule formalisation language in, it plays a vital role in API development (WP4),
-and it is integral to prototyping solutions for the demo cases (WP5). This interconnectedness
-underscores the significance of the ontology in enhancing the overall project's success and achieving
-seamless integration between various project components.
-</p> 
+foundation for the rule formalisation language </p> 
 
 ![](./ontology.PNG)
 
