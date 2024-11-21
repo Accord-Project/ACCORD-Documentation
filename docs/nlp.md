@@ -29,9 +29,9 @@ SNOWTECH Information extraction pipeline converts a regulatory sentence into a k
 
 > The following video gives a demonstration of how the tool works:
 
-<img src="./rase_automation.PNG" width="48"> (./RASE_Automation_Tool.mp4)
 
 
+[![](./rase_automation.PNG )](./RASE_Automation_Tool.mp4)
 
 
 ### RASE Pipeline
