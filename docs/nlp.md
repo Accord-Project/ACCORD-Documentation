@@ -26,10 +26,17 @@ SNOWTECH Information extraction pipeline converts a regulatory sentence into a k
 ### RASE Automation Tool
 
 <p style='text-align: justify;'> The RASE Automation Tool is a web-based application developed as part of the ACCORD project. The tool harnesses the capabilities of artificial intelligence, specifically a fine-tuned GPT-4 model, to transform complex building regulation texts into a machine-readable YAML format. This innovative solution aims to reduce the time, effort, and errors associated with manually interpreting and converting regulatory documents, thereby supporting professionals in the construction, architecture, and compliance sectors. </p>
-
-
+The following video gives a demonstration of how the tool works:
 
 [![Short Video on Rase Automation Tool](./rase_automation.PNG)](./RASE_Automation_Tool.mp4)
 ### RASE Pipeline
 
+<p style='text-align: justify;'>  The pipeline of the tool is based on an automated text conversion mechnasim where the tool converts building regulations provided in PDF format into YAML files, enabling seamless integration into automated systems and applications.
+It utilises a fine-tuned GPT-4 model to deliver contextually accurate and logically structured YAML outputs. It allows users to review and edit the AI-generated YAML files directly within the tool, ensuring adaptability and customisation for specific requirements.  </p>
+
 ![](./RasePipline.png)
+
+<p style='text-align: justify;'>The figure below shows an example of a YAML extract created from regulatory text by our Rase Automation Tool. The tool automatically defines the paragraph (highlighted) in the textual regulations and builds a YAML file with the RASE annotations which reflect the logical relations (highlighted) between the entities. </p>
+
+![](./text-to-yaml.png)
+
