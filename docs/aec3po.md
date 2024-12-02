@@ -5,7 +5,7 @@ It represents regulations and building codes in a machine-readable format.
 AEC3PO  provides a unified framework that enhances automation and consistency across different projects and regulatory environments. 
 AEC 3PO integrates various compliance aspects from document modelling to verification reporting.
 The figure provides a visual representation of the role of AEC3PO and its relationships with the
-knowledge application components of the ACCORD architecture. As AEC3PO serves as a semantic
+knowledge application components of the ACCORD architecture. AEC3PO serves as a semantic
 foundation for the rule formalisation language </p> 
 
 ![](./ontology.PNG)
