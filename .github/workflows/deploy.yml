@@ -19,13 +19,13 @@ jobs:
       - run: python -m pip install mkdocs mkdocs-windmill
       - run: mkdocs build
       - run: |
-        mkdir railroad
-        git clone https://github.com/bkiers/rrd-antlr4.git
-        cd rrd-antlr4
-        mvn clean package
-        cd target
-        wget https://raw.githubusercontent.com/Accord-Project/RegulationTransformationTool/refs/heads/main/src/main/antlr4/Accord.g4
-        java -jar rrd-antlr4-0.1.2.jar Accord.g4
+          mkdir railroad
+          git clone https://github.com/bkiers/rrd-antlr4.git
+          cd rrd-antlr4
+          mvn clean package
+          cd target
+          wget https://raw.githubusercontent.com/Accord-Project/RegulationTransformationTool/refs/heads/main/src/main/antlr4/Accord.g4
+          java -jar rrd-antlr4-0.1.2.jar Accord.g4
         cp ./output/Accord/index.html ./site/railroad.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
