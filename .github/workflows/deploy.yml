@@ -26,7 +26,7 @@ jobs:
           cd target
           wget https://raw.githubusercontent.com/Accord-Project/RegulationTransformationTool/refs/heads/main/src/main/antlr4/Accord.g4
           java -jar rrd-antlr4-0.1.2.jar Accord.g4
-        cp ./output/Accord/index.html ./site/railroad.html
+          cp ./output/Accord/index.html ./site/railroad.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
