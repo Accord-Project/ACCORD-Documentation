@@ -16,8 +16,11 @@ Correspondent endpoints and their URLs are given in the table below.
 
 |Endpoint name |URL address |
 |--------------|------------|
-|GraphDB | https://graphdb.accordproject.eu/graphdb |
-|SPARQL  | https://graphdb.accordproject.eu/graphdb/sparql |
+|GraphDB               | https://graphdb.accordproject.eu/graphdb |
+|SPARQL                | https://graphdb.accordproject.eu/graphdb/sparql |
+|Semantic bSDD GraphQL | https://bsdd.ontotext.com/graphiql/ |
+|Semantic bSDD SPARQL  | https://bsdd.ontotext.com/graphdb/sparql/ |
+
 
 ## GraphDB as the storage for regulation graphs 
 
