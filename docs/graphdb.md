@@ -18,9 +18,6 @@ Correspondent endpoints and their URLs are given in the table below.
 |--------------|------------|
 |GraphDB | https://graphdb.accordproject.eu/graphdb |
 |SPARQL  | https://graphdb.accordproject.eu/graphdb/sparql |
-|Workbench | https://graphdb.accordproject.eu/platform-workbench |
-|GraphQL | https://graphdb.accordproject.eu/platform-workbench/graphql |
-
 
 ## GraphDB as the storage for regulation graphs 
 
