@@ -18,9 +18,8 @@ Correspondent endpoints and their URLs are given in the table below.
 |--------------|------------|
 |GraphDB | https://graphdb.accordproject.eu/graphdb |
 |SPARQL  | https://graphdb.accordproject.eu/graphdb/sparql |
-|Workbench | https://graphdb.accordproject.eu/platform-workbench |
-|GraphQL | https://graphdb.accordproject.eu/platform-workbench/graphql |
-
+|Semantic bSDD GraphQL | https://bsdd.ontotext.com/graphiql/ |
+|Semantic bSDD SPARQL  | https://bsdd.ontotext.com/graphdb/sparql/ |
 
 ## GraphDB as the storage for regulation graphs 
 
@@ -76,12 +75,12 @@ The data of land usage plans are stored in GraphDB repositories `12-50a`, `12-50
 
 Each repository contains:
 
-- the unnamed default graph - stores common SKOS concept schemas for enumerations and code values reused within XPlanXML;
-- `landuse` - the land use data from XPlanXML for the particular building plan;
-- `ifc` - the partial conversion of building information models (BIMs) of Tegel airport from IFC4 to CityGML3.0 with FME conversion and then XSPARQL conversion to RDF;
-- `ifclbd` - the complete conversion of BIMs from IFC4 to CityGML3.0 with [IFC-to-LBD conversion](https://github.com/jyrkioraskari/IFCtoLBD);
-- `toporels` - the precalculated topological relations between land parcels and BIMs
-- `regurels` - the interconnections among fragments of texts detected in regulations texts, that cannot be described in XPlan.
+- [the unnamed default graph](https://graphdb.accordproject.eu/graphdb/resource?uri=http%3A%2F%2Fwww.openrdf.org%2Fschema%2Fsesame%23nil&role=context) - stores common SKOS concept schemas for enumerations and code values reused within XPlanXML;
+- [landuse](https://graphdb.accordproject.eu/resource/tegel/12-50ba/landuse/) - the land use data from XPlanXML for the particular building plan;
+- [ifc](https://graphdb.accordproject.eu/resource/tegel/12-50ba/ifc) - the partial conversion of building information models (BIMs) of Tegel airport from IFC4 to CityGML3.0 with FME conversion and then XSPARQL conversion to RDF;
+- [ifclbd](https://graphdb.accordproject.eu/resource/tegel/12-50ba/ifclbd) - the complete conversion of BIMs from IFC4 to CityGML3.0 with [IFC-to-LBD conversion](https://github.com/jyrkioraskari/IFCtoLBD);
+- [toporels](https://graphdb.accordproject.eu/resource/tegel/12-50ba/toporels) - the precalculated topological relations between land parcels and BIMs
+- [regurels](https://graphdb.accordproject.eu/resource/tegel/12-50ba/regurels) - the interconnections among fragments of texts detected in regulations texts, that cannot be described in XPlan.
 
 The documentation and the details of German use case are given in https://github.com/Accord-Project/Tegel/tree/main (private). 
 
