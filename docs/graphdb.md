@@ -73,7 +73,7 @@ Important note: the geometries in XPlanXML are given originally in GML format, a
 
 The data of land usage plans are stored in GraphDB repositories `12-50a`, `12-50ba` and `12-62a`, corresponding to the names of building plans.
 
-Each repository contains:
+Each repository contains (here links are given for the repository `12-50ba`):
 
 - [the unnamed default graph](https://graphdb.accordproject.eu/graphdb/resource?uri=http%3A%2F%2Fwww.openrdf.org%2Fschema%2Fsesame%23nil&role=context) - stores common SKOS concept schemas for enumerations and code values reused within XPlanXML;
 - [landuse](https://graphdb.accordproject.eu/resource/tegel/12-50ba/landuse/) - the land use data from XPlanXML for the particular building plan;
