@@ -8,8 +8,32 @@ extra:
   article_nav_bottom: false
 nav:
   - Home: index.md
-  - ACCORD Building Compliance Ontology: aec3po.md
-  - Rule Formalisation Process and BCRL Format: process.md
-  - Natural Langauge Processing of Building Codes: nlp.md
-  - ACCORD Rule Formalisation Tool: rft.md
-  - Semantic Storage: graphdb.md
+  - Rule Formalisation:
+    - ACCORD Building Compliance Ontology: aec3po.md
+    - Rule Formalisation Process and BCRL Format: process.md
+    - Natural Langauge Processing of Building Codes: nlp.md
+    - ACCORD Rule Formalisation Tool: rft.md
+    - Semantic Storage: graphdb.md
+  - ACCORD Cloud Architecture: cloud.md
+  - ACCORD Core Components:
+    - Rule Formalization Tool: rft.md
+    - Data Dictionary Repository Component: dd.md
+    - Rule Repository Component: rr.md
+    - Information Requirements Repository: idsr.md
+    - IDS Generation Component: idsgen.md
+    - Model and Data Requirement Validation Component: validation.md
+    - Process Execution Component: execution.md
+    - Data Storage Component: datastorage.md
+    - Orchestrating Microservices Component: orchestration.md
+  - ACCORD APIs: api.md
+  - ACCORD Integration Strategies: strategies.md
+  - Compliance Checking Microservices:
+    - Urban Regulations: urban.md
+    - Solibri and Cloudpermit: solibri.md
+    - AC(CO2)RD whole life carbon assessment: flca.md
+    - Clearly.BIM: clearly.md
+    - Eurocode Verification: eurocode.md
+    - Land Use Checking: landuse.md
+    - Environmental Compliance: glca.md
+    - Timber Construction Compliance Checker: timber.md
+
