@@ -25,7 +25,7 @@ nav:
     - Process Execution Component: execution.md
     - Data Storage Component: datastorage.md
     - Orchestrating Microservices Component: orchestration.md
-  - ACCORD APIs: api.md
+  - ACCORD APIs: apis.md
   - ACCORD Integration Strategies: strategies.md
   - Compliance Checking Microservices:
     - Urban Regulations: urban.md
