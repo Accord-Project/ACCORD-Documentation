@@ -4,7 +4,7 @@
 
 This documentation site presents the technical documentation of all the artefacts developed in the ACCORD project.
 
-It includes the following aspects developed in *WP2 (Semantisation of Regulations and Open Format for Machine-Readable Rules)*. These are presented under the _Rule Formalisation_ catrgory on the navigation bar:
+It includes the following aspects developed in *WP2 (Semantisation of Regulations and Open Format for Machine-Readable Rules)*. These are presented under the **Rule Formalisation** catrgory on the navigation bar:
 
 1. The Building Compliance Rule Language (BCRL).
 2. The Rule Formalisation Process and the BCRL Format.
@@ -18,10 +18,10 @@ It includes the following aspects developed in *WP2 (Semantisation of Regulation
 This documentation also covers components developed in *WP4 (Solutions development)*.
 
 1. The ACCORD Cloud Architecture
-2. The Core ACCORD Cloud Components. Presented under the _ACCORD Core Components_ catrgory on the navigation bar:
+2. The Core ACCORD Cloud Components. Presented under the **ACCORD Core Components** catrgory on the navigation bar:
 3. The Core ACCORD APIs
 4. ACCORD Integration Strategies
-5. Compliance Checking Microservices. Presented under the _Compliance Checking Microservices_ catrgory on the navigation bar:
+5. Compliance Checking Microservices. Presented under the **Compliance Checking Microservices** catrgory on the navigation bar:
 
 ## Funding
 ![EU](./eu.jpg){ height="50" }
