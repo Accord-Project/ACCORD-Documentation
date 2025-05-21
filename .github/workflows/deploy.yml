@@ -20,6 +20,12 @@ jobs:
       - run: python -m pip install mkdocs mkdocs-windmill
       - run: |
           mkdocs build
+          npx @redocly/cli build-docs api/BuildingCodesAndRules.yaml
+          mv redoc-static.html build/buildingcodesandrules.html
+          npx @redocly/cli build-docs api/Results.yaml
+          mv redoc-static.html build/results.html
+          npx @redocly/cli build-docs api/Data.yaml
+          mv redoc-static.html build/data.html
           mkdir railroad
           git clone https://github.com/bkiers/rrd-antlr4.git
           cd rrd-antlr4
@@ -29,12 +35,6 @@ jobs:
           java -jar rrd-antlr4-0.1.2.jar Accord.g4
           cd ../../
           cp ./rrd-antlr4/target/output/Accord/index.html ./site/railroad.html
-          npx @redocly/cli build-docs api/BuildingCodesAndRules.yaml
-          mv redoc-static.html build/buildingcodesandrules.html
-          npx @redocly/cli build-docs api/Results.yaml
-          mv redoc-static.html build/results.html
-          npx @redocly/cli build-docs api/Data.yaml
-          mv redoc-static.html build/data.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
