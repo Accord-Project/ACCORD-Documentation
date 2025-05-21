@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13' 
@@ -28,6 +29,12 @@ jobs:
           java -jar rrd-antlr4-0.1.2.jar Accord.g4
           cd ../../
           cp ./rrd-antlr4/target/output/Accord/index.html ./site/railroad.html
+          npx @redocly/cli build-docs api/BuildingCodesAndRules.yaml
+          mv redoc-static.html dist/buildingcodesandrules.html
+          npx @redocly/cli build-docs api/Results.yaml
+          mv redoc-static.html dist/results.html
+          npx @redocly/cli build-docs api/Data.yaml
+          mv redoc-static.html dist/data.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
