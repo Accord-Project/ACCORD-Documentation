@@ -21,7 +21,7 @@ The ACCORD Cloud Architecture contains twelve main components:
 
 The ACCORD cloud archiecture is show in the figure below:
 
-![](./cloud.png)
+![](./cloud1.png)
 
 Additionally, a simpler version has also been created to aid communication with external parties. This is shown below.
 
