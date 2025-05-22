@@ -11,6 +11,8 @@ The ACCORD cloud architecture can be integrated with compliance-checking microse
 
 ![](./integrationB.png)
 
+The advantages and disadvantages of these integration approaches are compared in the table below:
+
 
 | Integration Strategy A |	Integration Strategy B|
 | ---------------------- |  --------------------- |

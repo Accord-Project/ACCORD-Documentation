@@ -27,6 +27,7 @@ nav:
     - Orchestrating Microservices Component: orchestration.md
   - ACCORD APIs: apis.md
   - ACCORD Integration Strategies: strategies.md
+  - Extensibility of ACCORD Cloud Architecture: extensibility.md
   - Compliance Checking Microservices:
     - Urban Regulations: urban.md
     - Solibri and Cloudpermit: solibri.md
