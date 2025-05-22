@@ -21,11 +21,11 @@ jobs:
       - run: |
           mkdocs build
           npx @redocly/cli build-docs api/BuildingCodesAndRules.yaml
-          mv redoc-static.html build/buildingcodesandrules.html
+          mv redoc-static.html site/buildingcodesandrules.html
           npx @redocly/cli build-docs api/Results.yaml
-          mv redoc-static.html build/results.html
+          mv redoc-static.html site/results.html
           npx @redocly/cli build-docs api/Data.yaml
-          mv redoc-static.html build/data.html
+          mv redoc-static.html site/data.html
           mkdir railroad
           git clone https://github.com/bkiers/rrd-antlr4.git
           cd rrd-antlr4
