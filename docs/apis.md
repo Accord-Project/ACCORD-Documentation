@@ -3,6 +3,7 @@
 This page documents the ACCORD APIs. It firstly, describes the existing APIs that have been re-used as well as those that have been developed specifically within the ACCORD project. For the APIs that have been developed, the functionality is described as well as links to API documentation being provided.
 
 In total, 5 APIs are defined by the ACCORD project, 3 are newly developed, and two are re-used:
+
 1. API 1 – Definitions API (re-used)
 2. API 2 – Building Codes and Rules API (developed)
 3. API 3 – Information Services APIs (re-used)
