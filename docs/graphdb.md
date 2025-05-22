@@ -77,10 +77,11 @@ Each repository contains (here links are given for the repository `12-50ba`):
 
 - [the unnamed default graph](https://graphdb.accordproject.eu/graphdb/resource?uri=http%3A%2F%2Fwww.openrdf.org%2Fschema%2Fsesame%23nil&role=context) - stores common SKOS concept schemas for enumerations and code values reused within XPlanXML;
 - [landuse](https://graphdb.accordproject.eu/resource/tegel/12-50ba/landuse/) - the land use data from XPlanXML for the particular building plan;
-- [ifc](https://graphdb.accordproject.eu/resource/tegel/12-50ba/ifc) - the partial conversion of building information models (BIMs) of Tegel airport from IFC4 to CityGML3.0 with FME conversion and then XSPARQL conversion to RDF;
-- [ifclbd](https://graphdb.accordproject.eu/resource/tegel/12-50ba/ifclbd) - the complete conversion of BIMs from IFC4 to CityGML3.0 with [IFC-to-LBD conversion](https://github.com/jyrkioraskari/IFCtoLBD);
+- [ifc](https://graphdb.accordproject.eu/resource/tegel/12-50ba/ifc/) - the partial conversion of building information models (BIMs) of Tegel airport from IFC4 to CityGML3.0 with FME conversion and then XSPARQL conversion to RDF;
+- [2dfp](https://graphdb.accordproject.eu/resource/tegel/12-50ba/2dfp/) - the complete conversion of BIM 2d footprint in CityGML3.0 with FME conversion and then XSPARQL conversion to RDF;
+- [2d](https://graphdb.accordproject.eu/resource/tegel/12-50ba/2d/) - the BIM 2d footprint in RDF with precalculated areas;
 - [toporels](https://graphdb.accordproject.eu/resource/tegel/12-50ba/toporels) - the precalculated topological relations between land parcels and BIMs
-- [regurels](https://graphdb.accordproject.eu/resource/tegel/12-50ba/regurels) - the interconnections among fragments of texts detected in regulations texts, that cannot be described in XPlan.
+- [regurels](https://graphdb.accordproject.eu/resource/tegel/12-50ba/regurels) - the interconnections among fragments of texts detected in regulations texts, that cannot be described in XPlan;
 
 The documentation and the details of German use case are given in https://github.com/Accord-Project/Tegel/tree/main (private). 
 
