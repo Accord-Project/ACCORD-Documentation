@@ -38,8 +38,10 @@ The API Documetation for this API can be found [here](https://docs.accordproject
 
 The data API is designed to allow other components within the ACCORD cloud architecture to retrieve building model data. A full API description for the developed API is available . 
 This API provides the following endpoints:
+
 1.	Return a given model based on a model ID
 2.	Execute a graphQL query (if supported by the model format) of a given model ID.
+
 A comparison of the functionality of this API and the relevant technical requirements defined in D4.1 is given in Table 15.
 
 The API Documetation for this API can be found [here](https://docs.accordproject.eu/data.html)
@@ -47,6 +49,7 @@ The API Documetation for this API can be found [here](https://docs.accordproject
 ##	Results API
 The results API is designed to allow other components within the ACCORD cloud architecture, especially the orchestrating microservices components, to interact with compliance-checking microservices. All compliance-checking services should implement this API to integrate with the rest of the ACCORD cloud services. A full API description for the developed API is available . 
 This API provides the following endpoints:
+
 1.	Retrieve the metadata about compliance checking microservice and its capabilities. This includes:
 	1.	A list of model formats that the microservice supports
 	2.	A list of building code terms (as described in the data dictionary) that this microservice can support.
