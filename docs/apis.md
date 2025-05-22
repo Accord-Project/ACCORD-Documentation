@@ -20,13 +20,15 @@ Given that the re-used APIs already exist, they will be described briefly:
 ##	Building Codes and Rules API
 The building codes and rules API is designed to allow other components within the ACCORD cloud architecture to retrieve building codes and rules in a standardised format. A full API description for the developed API is available . 
 This API provides the following endpoints:
-1. Retrieval of regulations server metadata.
-2. Retrieval of the latest version of a building code in both YAML and JSON-LD.
-3. Returns a specified version of the building code.
-4. Execute a graphQL query over a building code.
-5. Return IDS for a given building code (and or version).
-6. Creates a new building code
-7. Returns a specific section or paragraph of the building code.
+
+1.	Retrieval of regulations server metadata.
+2.	Retrieval of the latest version of a building code in both YAML and JSON-LD.
+3.	Returns a specified version of the building code.
+4.	Execute a graphQL query over a building code.
+5.	Return IDS for a given building code (and or version).
+6.	Creates a new building code
+7.	Returns a specific section or paragraph of the building code.
+
 It should be noted that the building codes and rules API returns data in either JSON-LD or YAML to give integrators the freedom to choose the format that best suits their use case.
 A comparison of the functionality of this API and the relevant technical requirements defined in D4.1 is given in Table 14.
 
