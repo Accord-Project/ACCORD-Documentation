@@ -1,8 +1,8 @@
 # Semantic Storage
 
-[Ontotext GraphDB(TM)](https://graphdb.ontotext.com) is an RDF database, it is chosen as a data storage created in compliance with the Semantic Web technologies stack, to adopt its best practices to serve regulation compliance checks. 
+[Graphwise GraphDB(TM)](https://graphdb.ontotext.com) is an RDF database, it is chosen as a data storage created in compliance with the Semantic Web technologies stack, to adopt its best practices to serve regulation compliance checks. 
 
-Ontotext GraphDB(TM) is used in ACCORD semantic framework in the following ways:  
+Graphwise GraphDB(TM) is used in ACCORD semantic framework in the following ways:  
 
 - As a storage for regulation graphs generated from the building code text sources with the help of the Rule Formalization Tool. 
 
@@ -10,7 +10,7 @@ Ontotext GraphDB(TM) is used in ACCORD semantic framework in the following ways:
 
 - As a storage for German use case 1 data.
 
-In this section technical details of Ontotext GraphDB(TM) usage are described. 
+In this section technical details of Graphwise GraphDB(TM) usage are described. 
 
 Correspondent endpoints and their URLs are given in the table below.
 
@@ -23,7 +23,7 @@ Correspondent endpoints and their URLs are given in the table below.
 
 ## GraphDB as the storage for regulation graphs 
 
-The regulation graphs obtained within the Rule Formalisation Tool in the form of JSON-LD files are uploaded to Ontotext GraphDB(TM) via REST API provided by GraphDB Workbench. 
+The regulation graphs obtained within the Rule Formalisation Tool in the form of JSON-LD files are uploaded to Graphwise GraphDB(TM) via REST API provided by GraphDB Workbench. 
 
 The steps of the transformation are given at the picture
 
@@ -31,13 +31,13 @@ The steps of the transformation are given at the picture
 
 The list of API calls to GraphDB used in ACCORD project got Building Codes and Rules is given here [graphdb-webapi.md](https://github.com/Accord-Project/API-Development/blob/main/BuildingCodesAndRules/graphdb-webapi.md).
 
-The full description of Ontotext GraphDB(TM) REST API abilities is given at the link [https://graphdb.accordproject.eu/graphdb/webapi](https://graphdb.accordproject.eu/graphdb/webapi). 
+The full description of Graphwise GraphDB(TM) REST API abilities is given at the link [https://graphdb.accordproject.eu/graphdb/webapi](https://graphdb.accordproject.eu/graphdb/webapi). 
 
 A dedicated repository `aec3po` keeps the latest versions of regulation graphs created for a particular building code.  
 
 JSON-LD is a lightweight Linked Data format. It is easy for humans to read and write. It is based on the JSON format and provides a way to help JSON data interoperate at Web-scale. 
 
-Building Codes and Rules API is created to communicate rules from Ontotext GraphDB(TM) to other components. Building Codes and Rules API description is defined in [https://accord-project.github.io/API-Development/buildingcodesandrules.html](https://accord-project.github.io/API-Development/buildingcodesandrules.html)
+Building Codes and Rules API is created to communicate rules from Graphwise GraphDB(TM) to other components. Building Codes and Rules API description is defined in [https://accord-project.github.io/API-Development/buildingcodesandrules.html](https://accord-project.github.io/API-Development/buildingcodesandrules.html)
 
 Important note: all calls should go to `https://graphdb.accordproject.eu/graphdb/repositories`. Default GraphDB WebAPI generated path is `https://graphdb.accordproject.eu/repositories`, so when try from the Workbench UI the API calls won't work. 
 
@@ -47,7 +47,7 @@ Semantic bSDD is made to improve the GraphQL, JSON and RDF representations of [b
 
 The working demonstrator is available at the link [https://bsdd.ontotext.com](https://bsdd.ontotext.com). Supported are: 
 
-SPARQL endpoint using Ontotext GraphDB(TM): 
+SPARQL endpoint using Graphwise GraphDB(TM): 
 
 - [GraphDB Workbench: administrative interface for Semantic bSDD](https://bsdd.ontotext.com/graphdb)
 
@@ -63,20 +63,20 @@ GraphQL endpoint using Ontotext Platform Semantic Objects(TM):
 
 ## GraphDB as the storage for German use case 1 data 
 
-Ontotext GraphDB(TM) is used as the storage for [German use case 1 data](https://accordproject.eu/wp-content/uploads/2023/09/ACCORD_D1.2_ACCORD-Framework-and-User-Requirements-Specification.pdf), namely, land use development plans of the land under Tegel airport and building information models of several buildings of Tegel airport. The description of the use case is provided in the Section 5.1 of the [ACCORD Deliverable D1.2](https://accordproject.eu/wp-content/uploads/2023/09/ACCORD_D1.2_ACCORD-Framework-and-User-Requirements-Specification.pdf). 
+Graphwise GraphDB(TM) is used as the storage for [German use case 1 data](https://accordproject.eu/wp-content/uploads/2023/09/ACCORD_D1.2_ACCORD-Framework-and-User-Requirements-Specification.pdf), namely, land use development plans of the land under Tegel airport and building information models of several buildings of Tegel airport. The description of the use case is provided in the Section 5.1 of the [ACCORD Deliverable D1.2](https://accordproject.eu/wp-content/uploads/2023/09/ACCORD_D1.2_ACCORD-Framework-and-User-Requirements-Specification.pdf). 
 
-Land use development plans are given in the form of [XPlanXML](https://xleitstelle.de/xplanung/ueber_xplanung) files, and to be uploaded and then queried in Ontotext GraphDB(TM) they undergone conversion from XPlanXML into RDF/Turtle done with custom script written in [XSPARQL](https://www.w3.org/submissions/xsparql-language-specification/). 
+Land use development plans are given in the form of [XPlanGML](https://xleitstelle.de/xplanung/ueber_xplanung) files, and to be uploaded and then queried in Graphwise GraphDB(TM) they undergone conversion from XPlanGML into RDF/Turtle done with custom script written in [XSPARQL](https://www.w3.org/submissions/xsparql-language-specification/). 
 
-Building information models (BIMs) are given in the form of IFCx4 files, and to be uploaded and then queried in Ontotext GraphDB(TM) they are converted from IFCx4 to [CityGML 3.0](https://www.ogc.org/publications/standard/citygml/) with the help of a custom FME workflow, and then converted from CityGML 3.0 into RDF/Turtle with another custom script written in XSPARQL. 
+Building information models (BIMs) are given in the form of IFCx4 files, and to be uploaded and then queried in Graphwise GraphDB(TM) they are converted from IFCx4 to [CityGML 3.0](https://www.ogc.org/publications/standard/citygml/) with the help of a custom FME workflow, and then converted from CityGML 3.0 into RDF/Turtle with another custom script written in XSPARQL. 
 
-Important note: the geometries in XPlanXML are given originally in GML format, and to be used within Ontotext GraphDB(TM) they are converted into WKT using custom Python code. 
+Important note: the geometries in XPlanGML are given originally in GML format, and to be used within Graphwise GraphDB(TM) they are converted into WKT using custom Python code. 
 
 The data of land usage plans are stored in GraphDB repositories `12-50a`, `12-50ba` and `12-62a`, corresponding to the names of building plans.
 
 Each repository contains (here links are given for the repository `12-50ba`):
 
-- [the unnamed default graph](https://graphdb.accordproject.eu/graphdb/resource?uri=http%3A%2F%2Fwww.openrdf.org%2Fschema%2Fsesame%23nil&role=context) - stores common SKOS concept schemas for enumerations and code values reused within XPlanXML;
-- [landuse](https://graphdb.accordproject.eu/resource/tegel/12-50ba/landuse/) - the land use data from XPlanXML for the particular building plan;
+- [the unnamed default graph](https://graphdb.accordproject.eu/graphdb/resource?uri=http%3A%2F%2Fwww.openrdf.org%2Fschema%2Fsesame%23nil&role=context) - stores common SKOS concept schemas for enumerations and code values reused within XPlanGML;
+- [landuse](https://graphdb.accordproject.eu/resource/tegel/12-50ba/landuse/) - the land use data from XPlanGML for the particular building plan;
 - [ifc](https://graphdb.accordproject.eu/resource/tegel/12-50ba/ifc/) - the partial conversion of building information models (BIMs) of Tegel airport from IFC4 to CityGML3.0 with FME conversion and then XSPARQL conversion to RDF;
 - [2dfp](https://graphdb.accordproject.eu/resource/tegel/12-50ba/2dfp/) - the complete conversion of BIM 2d footprint in CityGML3.0 with FME conversion and then XSPARQL conversion to RDF;
 - [2d](https://graphdb.accordproject.eu/resource/tegel/12-50ba/2d/) - the BIM 2d footprint in RDF with precalculated areas;

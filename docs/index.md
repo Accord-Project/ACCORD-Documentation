@@ -4,7 +4,7 @@
 
 This documentation site presents the technical documentation of all the artefacts developed in the ACCORD project.
 
-It includes the following aspects developed in *WP2 (Semantisation of Regulations and Open Format for Machine-Readable Rules)*. These are presented under the **Rule Formalisation** catrgory on the navigation bar:
+It includes the following aspects developed in *WP2 (Semantisation of Regulations and Open Format for Machine-Readable Rules)*. These are presented under the **Rule Formalisation** category on the navigation bar:
 
 1. The Building Compliance Rule Language (BCRL).
 2. The Rule Formalisation Process and the BCRL Format.
