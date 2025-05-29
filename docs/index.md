@@ -15,15 +15,15 @@ It includes the following aspects developed in *WP2 (Semantisation of Regulation
 This documentation also covers components developed in *WP4 (Solutions development)*.
 
 1. The ACCORD Cloud Architecture
-2. The Core ACCORD Cloud Components. Presented under the **ACCORD Core Components** catrgory on the navigation bar:
+2. The Core ACCORD Cloud Components. Presented under the **ACCORD Core Components** category on the navigation bar:
 3. The Core ACCORD APIs
 4. ACCORD Integration Strategies
-5. Compliance Checking Microservices. Presented under the **Compliance Checking Microservices** catrgory on the navigation bar:
+5. Compliance Checking Microservices. Presented under the **Compliance Checking Microservices** category on the navigation bar:
 
 ## Funding
 ![EU](./eu.jpg){ height="50" }
 
-This project has received funding from the European Union’s Horizon Europe research and innovationprogramme under grant agreement no. 101056973.
+This project has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement no. 101056973.
 
 
 ![InnovateUK](./innovate.png){ height="50" }
