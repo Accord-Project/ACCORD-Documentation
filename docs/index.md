@@ -10,10 +10,7 @@ It includes the following aspects developed in *WP2 (Semantisation of Regulation
 2. The Rule Formalisation Process and the BCRL Format.
 3. Artificial Intelligence models and tools.
 4. The Rule Formalisation Tool (RFT).
-5. Semantic storage:
-	1. GraphDB Building Codes and Rules Repository.
-	2. Semantic BSDD.
-	3. Repository for German Use case 1 data.
+5. Semantic storage
 
 This documentation also covers components developed in *WP4 (Solutions development)*.
 
