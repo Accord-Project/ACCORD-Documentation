@@ -1,4 +1,4 @@
-# Land Use Checking
+# Planned Land Use Checker
 
 ## General Microservice Description 
 

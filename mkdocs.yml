@@ -17,24 +17,24 @@ nav:
   - ACCORD Cloud Architecture: cloud.md
   - ACCORD Core Components:
     - Rule Formalization Tool: rft.md
-    - Data Dictionary Repository Component: dd.md
-    - Rule Repository Component: rr.md
-    - Information Requirements Repository: idsr.md
-    - IDS Generation Component: idsgen.md
-    - Model and Data Requirement Validation Component: validation.md
-    - Process Execution Component: execution.md
-    - Data Storage Component: datastorage.md
-    - Orchestrating Microservices Component: orchestration.md
+    - Data Dictionary Repository: dd.md
+    - Building Codes & Rules Repository: rr.md
+    - IDS Repository: idsr.md
+    - IDS Generation Tool: idsgen.md
+    - Model and Data Requirement Validation: validation.md
+    - Process Execution: execution.md
+    - Data Storage: datastorage.md
+    - Orchestrating Microservices: orchestration.md
   - ACCORD APIs: apis.md
   - ACCORD Integration Strategies: strategies.md
   - Extensibility of ACCORD Cloud Architecture: extensibility.md
   - Compliance Checking Microservices:
-    - Urban Regulations: urban.md
+    - Urban Parameter Regulations Checking: urban.md
     - Solibri and Cloudpermit: solibri.md
     - AC(CO2)RD whole life carbon assessment: flca.md
-    - Clearly.BIM: clearly.md
+    - Future Insight Clearly.BIM: clearly.md
     - Eurocode Verification: eurocode.md
-    - Land Use Checking: landuse.md
+    - Planned Land Use Checker: landuse.md
     - Environmental Compliance: glca.md
     - Timber Construction Compliance Checker: timber.md
 

@@ -1,4 +1,4 @@
-# Orchestrating Microservices Component:
+# Orchestrating Microservices
 
 
 The function of the orchestrating microservices component is to identify and manage the execution of compliance checking across the ACCORD compliance checking microservices. This service is required since the ACCORD Cloud Architecture will consist of multiple microservices, each of which may well have several different instances running.

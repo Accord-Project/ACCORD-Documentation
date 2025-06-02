@@ -1,4 +1,4 @@
-# Rule Repository Component
+# Building Codes & Rules Repository
 
 The purpose of this component is to provide a single repository of machine-operable building codes and rules within the ACCORD framework. This component, together with the API (2) Building Codes and Rules: 
 

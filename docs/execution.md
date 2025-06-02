@@ -1,4 +1,4 @@
-# Process Execution Component
+# Process Execution
 
 The Process Execution component acts as the process backbone of the permitting process. Every permit request follows a predefined process.  That process is often prescribed by local law, but in general, consists of steps like:  
 - An applicant applies for a permit.

@@ -1,4 +1,4 @@
-# Clearly.BIM
+# Future Insight Clearly.BIM 
 
 Clearly.BIM is a user-friendly online solution for storing, viewing, sharing, querying, and checking BIM models in IFC. It offers a scalable solution for whoever works with BIM models: municipalities, contractors, the fire department, building owners, housing corporations, etc.  
 

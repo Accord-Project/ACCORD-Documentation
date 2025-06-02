@@ -1,4 +1,4 @@
-# Data Dictionary Repository Component
+# Data Dictionary Repository
 
 The data dictionary repository functionality is provided by bSDD (buildingSMART Data Dictionary).  The bSDD - buildingSMART Solution for Data Dictionaries is an online service hosting classes (terms) and properties, allowed values, units, translations, relations between those and more. It supports a standardised workflow to guarantee data quality, information consistency and interoperability. BIM modellers use the bSDD for easy and efficient access to all kinds of standards to enrich their models. BIM Managers use the bSDD to reference Information Delivery Specifications (IDS) and check BIM data for validity. Content creators benefit from having one entry point to various BIM tools and platforms. 
 

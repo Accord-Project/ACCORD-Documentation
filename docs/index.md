@@ -2,7 +2,7 @@
 ![ACCORD](./accord.jpg)
 ## Introduction
 
-This documentation site presents the technical documentation of all the artefacts developed in the ACCORD project.
+This documentation site presents the technical documentation of all the artefacts developed in the ACCORD project. This documentation is designed for a technical audience. For more general information please see the ACCORD project website [here](https://accordproject.eu/)
 
 It includes the following aspects developed in *WP2 (Semantisation of Regulations and Open Format for Machine-Readable Rules)*. These are presented under the **Rule Formalisation** category on the navigation bar:
 
@@ -19,6 +19,11 @@ This documentation also covers components developed in *WP4 (Solutions developme
 3. The Core ACCORD APIs
 4. ACCORD Integration Strategies
 5. Compliance Checking Microservices. Presented under the **Compliance Checking Microservices** category on the navigation bar:
+
+
+## Funding
+
+For more general information on the ACCORD project, please visit the main proejct website [here](https://accordproject.eu/).
 
 ## Funding
 ![EU](./eu.jpg){ height="50" }

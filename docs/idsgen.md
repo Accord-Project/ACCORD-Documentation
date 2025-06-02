@@ -1,4 +1,4 @@
-# IDS Generation Component
+# IDS Generation
 
 The IDS generation tool is an experimental component developed to automatically generate IDS from the formalized building codes and rules developed within the ACCORD project. This will be useful as it provides an automated method for generating IDS files, eliminating the need for manual development by a person.
 

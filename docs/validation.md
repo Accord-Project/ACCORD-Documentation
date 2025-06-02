@@ -1,4 +1,4 @@
-# Model and Data Requirement Validation Component
+# Model and Data Requirement Validation
 
 
 The Model and Data Requirement Validation Component ensures that the building model (IFC) and additional information (i.e., GIS data sets or supporting product data) that is to be checked on regulation compliance is of a good enough quality to be subject to such checks. 
