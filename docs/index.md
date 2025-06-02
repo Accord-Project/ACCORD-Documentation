@@ -21,7 +21,7 @@ This documentation also covers components developed in *WP4 (Solutions developme
 5. Compliance Checking Microservices. Presented under the **Compliance Checking Microservices** category on the navigation bar:
 
 
-## Funding
+## More Information
 
 For more general information on the ACCORD project, please visit the main proejct website [here](https://accordproject.eu/).
 
