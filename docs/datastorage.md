@@ -11,4 +11,4 @@ Two methods will be utilised to provide this storage: (1) standard static file s
 - Semantic Data Storage. This storage component will allow retrieval of only parts of a model. i.e. ‘give me all doors’ or ‘give me all objects related to fire safety’. 
 [Graphwise GraphDB(TM)](https://graphwise.ai/components/graphdb/) is an RDF database that was chosen as a data storage created in compliance with the Semantic Web technologies stack, to adopt its best practices to serve regulation compliance checks. 
 There is no open standard for retrieving only specific parts of a BIM model yet. SPARQL is utilised as a medium to provide access to BIM data in RDF. 
-To store BIM data in this format, it should be converted into RDF and stored in Graphwise GraphDB. The correspondent workflow was created and tested in the [Planned Land Use Checker Microservice](./landuse.html).
+To store BIM data in this format, it should be converted into RDF and stored in Graphwise GraphDB. The correspondent workflow was created and tested in the [Planned Land Use Checker Microservice](./landuse.md).

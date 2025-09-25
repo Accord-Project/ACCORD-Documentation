@@ -6,4 +6,4 @@ The steps of the transformation are given at the picture
 
 ![](./ACCORD-Regulations-to-GraphDB.png)
 
-The implementation details are described in the section [Building Codes and Rules Repository](./rr.html)
+The implementation details are described in the section [Building Codes and Rules Repository](./rr.md)
