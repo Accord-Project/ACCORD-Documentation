@@ -6,9 +6,37 @@ The purpose of this service is to automate the compliance checks of land use reg
 
 XPlanung is an open, XML-based data exchange format based on Geography Markup Language Version 3 (GML 3.2.2), the extensible standard for spatial data developed by the  Open Geospatial Consortium (OGC)  and ISO TC211. The CityGML standard defines a conceptual model and exchange format for the representation, storage and exchange of virtual 3D city models. The standard provides a framework for integrating, storing, and exchanging 3D geospatial data encoded in GML/XML.  
 
-Transformation of BIM data in IFC format into CityGML 2.0 is implemented as a custom FME flow.   
+Transformation of BIM data in IFC format into CityGML 2.0 is implemented as a custom FME workflow.   
 
 ![](./land-use-workflow.png)
+
+## GraphDB as the storage for land use data and BIM data
+
+Graphwise GraphDB(TM) is used as the storage for German use case 1 data, namely, land use development plans of the land under Tegel airport and building information models of several buildings of Tegel airport. The description of the use case is provided in the Section 5.1 of the ACCORD Deliverable D1.2.
+
+Land use development plans are given in the form of XPlanGML files, and to be uploaded and then queried in Graphwise GraphDB(TM) they undergone conversion from XPlanGML into RDF/Turtle done with custom script written in XSPARQL.
+
+Building information models (BIMs) are given in the form of IFCx4 files, and to be uploaded and then queried in Graphwise GraphDB(TM) they are converted from IFCx4 to CityGML 3.0 with the help of a custom FME workflow, and then converted from CityGML 3.0 into RDF/Turtle with another [custom script written in XSPARQL](https://github.com/Accord-Project/Tegel-scripts/blob/main/ifc/cityrdf_typedGenAttrs-withIDs-citygml3.xsparql).
+
+Important note: the geometries in XPlanGML are given originally in GML format, and to be used within Graphwise GraphDB(TM) they are converted into WKT using custom Python code.
+
+The data of land usage plans are stored in GraphDB repositories 12-50a, 12-50ba and 12-62a, corresponding to the names of building plans.
+
+Each repository contains (here links are given for the repository 12-50ba):
+
+- `the unnamed default graph` - stores common SKOS concept schemas for enumerations and code values reused within XPlanGML;
+- `landuse` - land use data from XPlanGML for the particular building plan;
+- `ifc` - conversion of building information models (BIMs) of Tegel airport from IFCx4 to CityGML 3.0 with FME conversion and then XSPARQL conversion to RDF;
+- `ifc/heights` - extracted heights of BIM model components
+- `2dfp` - BIM 2d footprint in RDF;
+- `2d` - precalculated areas of intersection of BIM 2d footprint elements with land parcels;
+- `toporels` - precalculated topological relations between land parcels and BIMs
+- `regurels` - interconnections among fragments of texts detected in regulations texts, that cannot be described in XPlan;
+- `topoenv` - precalculated topological relations between land parcel envelopes
+
+
+The documentation and the details of German use case are given in `https://github.com/Accord-Project/Tegel/tree/main` (private). 
+Reusable scripts and GME workflows are given in the public Github repository [https://github.com/Accord-Project/Tegel-scripts](https://github.com/Accord-Project/Tegel-scripts).
 
 ## Microservice Implementation and Functionality 
 

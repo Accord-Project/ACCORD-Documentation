@@ -18,7 +18,7 @@ nav:
   - ACCORD Core Components:
     - Rule Formalization Tool: rft.md
     - Data Dictionary Repository: dd.md
-    - Building Codes & Rules Repository: rr.md
+    - Building Codes and Rules Repository: rr.md
     - IDS Repository: idsr.md
     - IDS Generation Tool: idsgen.md
     - Model and Data Requirement Validation: validation.md

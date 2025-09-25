@@ -25,3 +25,23 @@ If the term is a property (e.g., width), the Class of the property currently bei
 2.	Calculation Method: A new ClassProperty should be created. The bSDD IsDynamic property is set to true and a URI for the process application is also saved.
 
 3.	Human Decision: A new ClassProperty should be created, but no other action taken.
+
+## Semantic bSDD
+
+Semantic bSDD was made to improve the GraphQL, JSON and RDF representations of buildingSmart Data Dictionary. The reasons of creating Semantic bSDD, thorough analysis of the original bSDD, recommendations and enhancements proposed, implemented and left for future work together with all the technical details of the work done are available at [https://github.com/Accord-Project/bsdd] (open source).
+
+The working demonstrator is available at the link [https://bsdd.ontotext.com](https://bsdd.ontotext.com). Supported are:
+
+SPARQL endpoint using Graphwise GraphDB(TM):
+
+- [GraphDB Workbench: administrative interface for Semantic bSDD](https://bsdd.ontotext.com/graphdb)
+
+- [GraphDB SPARQL endpoint](https://bsdd.ontotext.com/graphdb/repositories/bsdd)
+
+- [GraphDB SPARQL editor](https://bsdd.ontotext.com/graphdb/sparql)
+
+GraphQL endpoint using Ontotext Platform Semantic Objects(TM):
+
+- [Refactored GraphQL endpoint](https://bsdd.ontotext.com/graphql)
+
+- [Refactored GraphQL query editor](https://bsdd.ontotext.com/graphiql)

@@ -4,7 +4,11 @@ The data storage component forms the central location where data that is used in
 
 Two methods will be utilised to provide this storage: (1) standard static file storage, and (2) semantic storage.
 
-- Standard static file storage. This component will store models as a single file. Access to these files will be provided via the OpenCDE Documents API17. 
+- Standard static file storage. This component will store models as a single file. Access to these files will be provided via the OpenCDE Documents API. 
     - Clearly.BIM static storage has been implemented, and models can be retrieved through a protected URI. 
     - CloudPermit static storage contains the models and pre-processed Solibri BCRL rulesets. 
-- Semantic Data Storage. This storage component will allow retrieval of only parts of a model. i.e. ‘give me all doors’ or ‘give me all objects related to fire safety’. There is no open standard for retrieving only specific parts of a model yet. So, SPARQLwill be utilised as a medium to provide access to this data.To store BIM data in this format, it will be converted into RDF and stored in GraphDB.  
+
+- Semantic Data Storage. This storage component will allow retrieval of only parts of a model. i.e. ‘give me all doors’ or ‘give me all objects related to fire safety’. 
+[Graphwise GraphDB(TM)](https://graphwise.ai/components/graphdb/) is an RDF database that was chosen as a data storage created in compliance with the Semantic Web technologies stack, to adopt its best practices to serve regulation compliance checks. 
+There is no open standard for retrieving only specific parts of a BIM model yet. SPARQL is utilised as a medium to provide access to BIM data in RDF. 
+To store BIM data in this format, it should be converted into RDF and stored in Graphwise GraphDB. The correspondent workflow was created and tested in the [Planned Land Use Checker Microservice](./landuse.html).
